@@ -127,5 +127,6 @@ if uploaded_file is not None:
     doc.save(output_docx)
     output_docx.seek(0)
     st.download_button("Download Briefe DOCX", output_docx, "briefe.docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+    #Mein Kommentar
 
 st.markdown("© 2025 N. Klietsch")
